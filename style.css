@@ -1,0 +1,62 @@
+/* 全局設定 */
+body {
+    /* 淡紫色背景，營造空靈感 */
+    background-color: #E6E6FA; 
+    
+    /* 使用引入的優雅字體 */
+    /* 'Noto Serif TC' 用於中文, 'Cormorant Garamond' 用於英文 */
+    font-family: 'Noto Serif TC', 'Cormorant Garamond', serif;
+    
+    /* 響應式佈局：將內容在畫面中垂直和水平置中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; /* 在螢幕邊緣留白 */
+    box-sizing: border-box;
+}
+
+/* 內容容器 */
+.container {
+    background-color: rgba(255, 255, 255, 0.85); /* 半透明白色背景，增加層次感 */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* 標題樣式 (h1) */
+#item-title {
+    font-size: 28px; /* 標題字體較大 */
+    font-weight: 700; /* 粗體 */
+    color: #4B0082; /* 深紫色，增加對比 */
+    margin-bottom: 20px;
+}
+
+/* 圖片樣式 */
+#item-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 內文樣式 */
+#item-text {
+    font-size: 17px; /* 內文字體大小 */
+    color: #333;
+    line-height: 1.8; /* 增加行高，方便閱讀 */
+    text-align: left; /* 內文靠左對齊，更易讀 */
+    margin-bottom: 30px;
+    white-space: pre-wrap; /* 保留文字中的換行 */
+}
+
+/* 音樂播放器樣式 */
+#item-audio {
+    width: 100%;
+}
+
